@@ -1,17 +1,8 @@
-# Bcoin
+# Zecoin
 
-__NOTE__: The latest release of bcoin contains a non-backward compatible change
-to the rest API. Please read the [changelog]'s "migrating" section for more
-details.
-
----
-
-**Bcoin** is an alternative implementation of the bitcoin protocol, written in
+**Zecoin** is an alternative implementation of the ZeroCash protocol, written in
 node.js.
-
-Bcoin is well tested and aware of all known consensus rules. It is currently
-used in production as the consensus backend and wallet system for
-[purse.io][purse].
+.
 
 ## Uses
 
@@ -27,10 +18,10 @@ Try it in the browser: http://bcoin.io/browser.html
 ## Install
 
 ```
-$ git clone git://github.com/bcoin-org/bcoin.git
-$ cd bcoin
+$ git clone git://github.com/master-org/zecoin.git
+$ cd zecoin
 $ npm install
-$ ./bin/bcoin
+$ ./bin/zcash
 ```
 
 See the [Beginner's Guide][guide] for more in-depth installation instructions.
@@ -43,11 +34,11 @@ See the [Beginner's Guide][guide] for more in-depth installation instructions.
 
 ## Support
 
-Join us on [freenode][freenode] in the [#bcoin][irc] channel.
+Join us on [freenode][freenode] in the [#zcash][irc] channel.
 
 ## Disclaimer
 
-Bcoin does not guarantee you against theft or lost funds due to bugs, mishaps,
+Zecoin does not guarantee you against theft or lost funds due to bugs, mishaps,
 or your own incompetence. You and you alone are responsible for securing your
 money.
 
@@ -61,11 +52,4 @@ all code is your original work. `</legalese>`
 
 - Copyright (c) 2014-2015, Fedor Indutny (MIT License).
 - Copyright (c) 2014-2017, Christopher Jeffrey (MIT License).
-
-See LICENSE for more info.
-
-[purse]: https://purse.io
-[guide]: https://github.com/bcoin-org/bcoin/blob/master/docs/Beginner's-Guide.md
-[freenode]: https://freenode.net/
-[irc]: irc://irc.freenode.net/bcoin
-[changelog]: https://github.com/bcoin-org/bcoin/blob/master/CHANGELOG.md
+- Copyright (c) 2017-2018, Jonathan Gonzalez (MIT License).
