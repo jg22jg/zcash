@@ -3,7 +3,7 @@
 'use strict';
 
 console.error('%s%s',
-  'Warning: The `bcoin cli` interface is deprecated.\n',
+  'Warning: The `zecoin cli` interface is deprecated.\n',
   'Please use `bcoin-cli` ($ npm install bclient).');
 
 if (process.argv.length > 2 && process.argv[2] === 'wallet') {
