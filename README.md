@@ -10,8 +10,7 @@ node.js.
 - SPV Node
 - Wallet Backend (bip44 derivation)
 - Mining Backend (getblocktemplate support)
-- Layer 2 Backend (lightning)
-- General Purpose Bitcoin Library
+- General Purpose Zcash Library
 
 Try it in the browser: http://bcoin.io/browser.html
 
